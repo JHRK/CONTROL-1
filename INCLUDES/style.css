@@ -9,13 +9,25 @@ body{
 
 header{
     width: 100%;
-    font-size: 66px;
-    color: rgb(30, 128, 82);
-    background-color: grey;
+    font-size: 18px;
+    color: rgb(12, 53, 34);
+    background-color: rgb(255, 253, 234);
+    display: flex;
+    justify-content: center;
 }
 
 header h1{
     font-weight: 300;
     font-family:IBM Plex Mono ;
+    margin-left: -5%;
+}
+
+main{
+    width: 100%;
+    font-size: 18px;
+    color: rgb(12, 53, 34);
+    background-color: rgb(255, 253, 234);
+    display: flex;
+    justify-content: center;
 }
 
