@@ -6,8 +6,6 @@
   <iframe class="embed-responsive-item" src="./ASSETS/projetopdf.pdf" allowfullscreen></iframe>
 </div>
 
-
-
 <?php
     include 'footer.php'
 ?>
