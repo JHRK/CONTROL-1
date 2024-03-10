@@ -24,8 +24,9 @@ main{
     font-size: 18px;
     color: rgb(12, 53, 34);
     background-color: #fffdea;
-    display: flex;
+    display: flexbox;
     justify-content: center;
+    height: 80%;
 }
 
 main h1{
@@ -50,16 +51,26 @@ main h1{
   background-position: center;
   background-size:20%;
   mix-blend-mode:darken;
+  animation: roda 15s infinite linear;
 }
 
 #toy{
   background-image: url('./ASSETS/Group 13.svg');
   background-position: center;
   background-size:20%;
-  animation: moveBackground 15s infinite linear;
+  animation: mexe 15s infinite linear;
 }
 
-@keyframes moveBackground {
+@keyframes roda {
+  0% {
+      background-position: rotate(0deg);
+  }
+  100% {
+    background-position: rotate(360deg);
+  }
+}
+
+@keyframes mexe {
     0% {
         background-position: 0% 0%;
     }
@@ -67,6 +78,7 @@ main h1{
         background-position: 100% 100%;
     }
 }
+
 
 #toy h1{
   background-color: #0c3522;
