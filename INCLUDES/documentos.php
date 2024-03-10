@@ -11,7 +11,7 @@
     </div>
     <div class="col-4 ola" id="logocvdisplay"> 
     </div>
-    <div class="col ola"><h1><a href="./documentos.php">Documentação</a></h1></div>
+    <div class="col ola"><h1>Documentação</h1></div>
     <div class="col ola"><h1>Projeções</h1></div>
     <div class="col ola">
         <h1 >Componentes</h1>
