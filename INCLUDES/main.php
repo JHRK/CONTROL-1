@@ -14,8 +14,8 @@
         <h1 >Partes do Projeto</h1>
     </div>
     <div class="col ola">
-    <h1>Interativo</h1>
-    </div>
+        <a href="./gameslegais.php"><h1>Demonstrações</h1></a>
+    </div> 
  </div>
 </main>
 
