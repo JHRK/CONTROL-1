@@ -1,5 +1,7 @@
-import { Application } from '@splinetool/runtime';
-
-const canvas = document.getElementById('canvas3d');
-const app = new Application(canvas);
-app.load('https://prod.spline.design/mh6-1GptnzyuQ-F3/scene.splinecode');
+function incrementValue()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+}
