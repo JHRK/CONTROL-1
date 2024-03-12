@@ -73,9 +73,12 @@ main h1{
     0% {
         background-position: 0% 0%;
     }
-    100% {
+    50% {
         background-position: 100% 100%;
     }
+    100% {
+      background-position: 0% 0%;
+  }
 }
 
 
@@ -86,4 +89,22 @@ main h1{
 
 a{
   color: inherit;
+}
+
+.pixel{
+  font-family: IBM Plex Mono;
+  color:#0c3522;
+  background-color: #ffffff00;
+  border: 5px solid #739183;
+  border-style: inset;
+  margin-top:0.5%;
+}
+
+#number{
+  font-family: Pixelify Sans;
+  color:#ffffff;
+  background-color: #000000;
+  border: 5px solid #739183;
+  border-style: inset;
+  margin-top:0.5%;
 }
