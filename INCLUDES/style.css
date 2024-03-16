@@ -2,6 +2,10 @@ html{
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #fffdea;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,10 +16,8 @@ header{
     width: 100%;
     font-size: 18px;
     color: #0c3522;
-    background-color: rgb(255, 253, 234);
     display: flex;
     justify-content: center;
-    position: sticky;
 }
 
 header h1{
@@ -44,10 +46,13 @@ main h1{
 
 }
 
+
+
 #gif1{
   background-image: url('./ASSETS/gifboome.gif');
   background-position: center;
   background-size: cover;
+
 }
 
 #logocvdisplay{
@@ -64,6 +69,7 @@ main h1{
   background-size:20%;
   animation: mexe 15s infinite linear;
 }
+
 
 @keyframes roda {
   0% {
