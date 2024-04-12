@@ -6,6 +6,7 @@ function incrementValue()
     document.getElementById('number').value = value;
 }
 
+
 // from http://inertia-momentum-scroll.webflow.io/vanilla-js-version 
 // CJHersh https://webflow.com/CJHersh
 //valeu amigo CJHersh, teu código está sendo muito bem aproveitado aqui
